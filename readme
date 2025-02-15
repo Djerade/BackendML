@@ -1,0 +1,6 @@
+# build image
+docker build -t fastapi-app .
+# run image
+docker run -p 8000:8000 fastapi-app
+## Cloning the repository
+https://github.com/Djerade/BackendML.git
